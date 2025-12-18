@@ -13,12 +13,13 @@ const collections = {
 
 // Skins
 const skins = {
-  "AK-47": {
-    "Alpha": {
-      "FN": `${T}/ak-47/alpha/alphaFN.png`,
-      "BS": `${T}/ak-47/alpha/alphaBS.png`
-    }
+"Alpha": {
+  "collection": "Alpha",
+  "variants": {
+    "FN": `${T}/ak-47/alpha/alphaFN.png`,
+    "BS": `${T}/ak-47/alpha/alphaBS.png`
   }
+}
 };
 
 // Weapon models
