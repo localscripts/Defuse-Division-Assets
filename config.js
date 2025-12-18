@@ -13,14 +13,24 @@ const collections = {
 
 // Skins
 const skins = {
-"Alpha": {
-  "collection": "Alpha",
-  "variants": {
-    "FN": `${T}/ak-47/alpha/alphaFN.png`,
-    "BS": `${T}/ak-47/alpha/alphaBS.png`
+"AK-47": {
+  "Alpha": {
+      "collection": "Alpha",
+      "variants": {
+        "FN": `${T}/ak-47/alpha/alphaFN.png`,
+        "BS": `${T}/ak-47/alpha/alphaBS.png`
+      }
+    },
+    "Test": {
+      "collection": "Seaside",
+      "variants": {
+        "FN": `${T}/ak-47/alpha/alphaFN.png`,
+        "BS": `${T}/ak-47/alpha/alphaBS.png`
+      }
+    },
   }
-}
 };
+
 
 // Weapon models
 const weapons = {
