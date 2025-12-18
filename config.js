@@ -15,8 +15,8 @@ const collections = {
 const skins = {
   "AK-47": {
     "Alpha": {
-      "FN": `${T}/ak-47/alphaFN.png`,
-      "BS": `${T}/ak-47/alphaBS.png`
+      "FN": `${T}/ak-47/alpha/alphaFN.png`,
+      "BS": `${T}/ak-47/alpha/alphaBS.png`
     }
   }
 };
