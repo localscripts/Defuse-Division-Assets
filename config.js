@@ -5,6 +5,18 @@ const M = `${ROOT}/models`;
 const T = `${ROOT}/textures`;
 const C = `${ROOT}/collections`;
 
+// Rarity
+const rarity = {
+  "yellow": "#FFAE39",     // Contraband
+  "red": "#EB4B4B",        // Covert | Knives
+  "pink": "#D32EE6",       // Classified
+  "purple": "#8847FF",     // Restricted
+  "blue": "#4B69FF",       // Mil-Spec Skins
+  "lightblue": "#5E98D9",  // Industrial Grade
+  "gray": "#B0C3D9"        // Consumer Grade
+};
+
+
 // Collections
 const collections = {
   "Seaside": `${C}/seaside.png`,
@@ -16,6 +28,7 @@ const skins = {
 "AK-47": {
   "Alpha": {
       "collection": "Alpha",
+      "rarity": "red",
       "variants": {
         "FN": `${T}/ak-47/alpha/alphaFN.png`,
         "BS": `${T}/ak-47/alpha/alphaBS.png`
