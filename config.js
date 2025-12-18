@@ -1,4 +1,5 @@
 const ROOT = "https://raw.githubusercontent.com/localscripts/Defuse-Division-Assets/refs/heads/main";
+const NOTFOUND = "https://raw.githubusercontent.com/localscripts/Defuse-Division-Assets/refs/heads/main/textures/404.png";
 
 // Short aliases
 const M = `${ROOT}/models`;
