@@ -25,8 +25,8 @@ const rarity = {
 const skins = {
   "AK-47": {
     "Alpha": {
-      "variants": ["FN", "BS"],
-      "factors": ["MetalnessMap", "NormalMap", "RoughnessMap"],
+      "variants": ["FN", "MW", "FT", "WW", "BS"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       "settings": {skinId: "alpha", collection: "Alpha", rarity: "red"}
     }
   }
@@ -88,4 +88,5 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
