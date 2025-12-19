@@ -41,7 +41,7 @@ const skins = {
     "Steel Wave": {
       "variants": ["FN", "MW", "FT", "WW", "BS"],
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      "settings": {skinId: "steelwave", collection: "Alpha", rarity: "blue"}
+      "settings": {skinId: "steel wave", collection: "Alpha", rarity: "blue"}
     }
   }
 };
@@ -102,6 +102,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
