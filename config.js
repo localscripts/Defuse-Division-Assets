@@ -33,8 +33,15 @@ const skins = {
     "MAC-10": {
     "Glitched": {
       "variants": ["FN"],
-      "factors": ["ColorMap"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       "settings": {skinId: "glitched", collection: "Alpha", rarity: "blue"}
+    }
+  },
+    "XM1014": {
+    "Steel Wave": {
+      "variants": ["FN", "MW", "FT", "WW", "BS"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "steelwave", collection: "Alpha", rarity: "blue"}
     }
   }
 };
@@ -95,6 +102,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
