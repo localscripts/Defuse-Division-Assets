@@ -29,6 +29,13 @@ const skins = {
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       "settings": {skinId: "alpha", collection: "Alpha", rarity: "red"}
     }
+  },
+    "MAC-10": {
+    "Glitched": {
+      "variants": ["FN"],
+      "factors": ["ColorMap"],
+      "settings": {skinId: "glitched", collection: "Alpha", rarity: "blue"}
+    }
   }
 };
 
@@ -88,6 +95,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
