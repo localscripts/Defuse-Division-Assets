@@ -43,7 +43,70 @@ const skins = {
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       "settings": {skinId: "steel wave", collection: "Alpha", rarity: "blue"}
     }
-  }
+  },
+   "MP9": {
+    "Oxidized": {
+      "variants": ["FN", "MW", "FT", "WW", "BS"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "oxidized", collection: "Alpha", rarity: "blue"}
+    }
+  },
+  "Dual Berettas": {
+    "Curio": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "curio", collection: "Alpha", rarity: "blue"}
+    }
+  },
+  "MAC-10": {
+    "Glitched": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "glitched", collection: "Alpha", rarity: "blue"}
+    }
+  },
+  "GLOCK-18": {
+    "Melon": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "melon", collection: "Alpha", rarity: "purple"}
+    }
+  },
+ "P250": {
+    "Thorned Stars": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "thorned stars", collection: "Alpha", rarity: "purple"}
+    }
+  },
+   "SSG 08": {
+    "Brains & Bass": {
+      "variants": ["FN", "MW", "FT", "WW", "BS"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "brains & bass", collection: "Alpha", rarity: "purple"}
+    }
+  },
+  "AWP": {
+    "Wave Check": {
+      "variants": ["FN", "MW", "FT", "WW", "BS"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "wave check", collection: "Alpha", rarity: "pink"}
+    }
+  },
+ "Desert Eagle": {
+    "Aurion": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "aurion", collection: "Alpha", rarity: "pink"}
+    }
+  },
+  "USP-S": {
+    "Hypnotized": {
+      "variants": ["FN"],
+      "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      "settings": {skinId: "hypnotized", collection: "Alpha", rarity: "red"}
+    }
+  },
 };
 
 
@@ -102,6 +165,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
