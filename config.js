@@ -65,7 +65,7 @@ const skins = {
       "settings": {skinId: "glitched", collection: "Alpha", rarity: "blue"}
     }
   },
-  "GLOCK-18": {
+  "Glock-18": {
     "Melon": {
       "variants": ["FN"],
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
@@ -165,6 +165,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
