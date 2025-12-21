@@ -84,7 +84,7 @@ const skins = {
       "settings": {skinId: "thorned stars", collection: "Alpha", rarity: "purple"}
     }
   },
-   "SSG 08": {
+   "SSG08": {
     "Brains & Bass": {
       "variants": ["FN", "MW", "FT", "WW", "BS"],
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
@@ -167,9 +167,10 @@ const weapons = {
     "AWP": `${M}/weapon_snip_awp.obj`,
     "G3SG1": `${M}/weapon_snip_g3sg1.obj`,
     "SCAR-20": `${M}/weapon_snip_scar20.obj`,
-    "SSG 08": `${M}/weapon_snip_ssg08.obj`
+    "SSG08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
