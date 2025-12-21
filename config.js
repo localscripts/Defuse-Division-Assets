@@ -88,7 +88,7 @@ const skins = {
     "Brains & Bass": {
       "variants": ["FN", "MW", "FT", "WW", "BS"],
       "factors": ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      "settings": {skinId: "brains & bass", collection: "Alpha", rarity: "purple"}
+      "settings": {skinId: "brains n bass", collection: "Alpha", rarity: "purple"}
     }
   },
   "AWP": {
@@ -170,6 +170,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
