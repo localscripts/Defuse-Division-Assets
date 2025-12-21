@@ -3,12 +3,17 @@ const ROOT = "https://raw.githubusercontent.com/localscripts/Defuse-Division-Ass
 const M = `${ROOT}/models`;
 const T = `${ROOT}/textures`;
 const C = `${ROOT}/collections`;
-
+const B = `${ROOT}/backgrounds`;
 
 // Collections
 const collections = {
   "Seaside": `${C}/seaside.png`,
   "Alpha": `${C}/alpha.png`
+};
+
+const backgrounds = {
+  "Ancient Side": `${B}/videos/Ancient_Night1.mp4`,
+  "Ancient Test": `${B}/videos/Ancient_Night2.mp4`
 };
 
 const rarity = {
@@ -165,6 +170,7 @@ const weapons = {
     "SSG 08": `${M}/weapon_snip_ssg08.obj`
   }
 };
+
 
 
 
