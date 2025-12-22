@@ -112,13 +112,118 @@ const skins = {
       "settings": {skinId: "hypnotized", collection: "Alpha", rarity: "red"}
     }
   },
-  "Butterfly": {
-    "Vanila": {
-      "variants": ["FN"],
-      "factors": ["ColorMap"],
-      "settings": {skinId: "vanila", collection: "Knives", rarity: "red"}
-    }
-  },
+"Bayonet": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Butterfly": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Classic": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Falchion": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Flip": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Gut": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Huntsman": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Karambit": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Kukri": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"M9": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Navaja": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Skeleton": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Stiletto": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
+"Talon": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
+
 };
 
 
@@ -177,9 +282,23 @@ const weapons = {
     "SSG08": `${M}/weapon_snip_ssg08.obj`
   },
 
-  "Knives": {
-    "Butterfly": `${M}/weapon_knife_butterfly.obj`
-}
+"Knives": {
+    "Bayonet": `${M}/weapon_knife_bayonet.obj`,
+    "Butterfly": `${M}/weapon_knife_butterfly.obj`,
+    "Classic": `${M}/weapon_knife_classic.obj`,
+    "Falchion": `${M}/weapon_knife_falchion.obj`,
+    "Flip": `${M}/weapon_knife_flip.obj`,
+    "Gut": `${M}/weapon_knife_gut.obj`,
+    "Huntsman": `${M}/weapon_knife_huntsman.obj`,
+    "Karambit": `${M}/weapon_knife_karambit.obj`,
+    "Kukri": `${M}/weapon_knife_kukri.obj`,
+    "M9": `${M}/weapon_knife_m9.obj`,
+    "Navaja": `${M}/weapon_knife_navaja.obj`,
+    "Skeleton": `${M}/weapon_knife_skeleton.obj`,
+    "Stiletto": `${M}/weapon_knife_stiletto.obj`,
+    "Talon": `${M}/weapon_knife_talon.obj`,
+},
+
 };
 
 
