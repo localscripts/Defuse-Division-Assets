@@ -112,6 +112,13 @@ const skins = {
       "settings": {skinId: "hypnotized", collection: "Alpha", rarity: "red"}
     }
   },
+  "Butterfly": {
+    "Vanila": {
+      "variants": ["FN"],
+      "factors": ["ColorMap"],
+      "settings": {skinId: "vanila", collection: "Knives", rarity: "red"}
+    }
+  },
 };
 
 
@@ -168,8 +175,13 @@ const weapons = {
     "G3SG1": `${M}/weapon_snip_g3sg1.obj`,
     "SCAR-20": `${M}/weapon_snip_scar20.obj`,
     "SSG08": `${M}/weapon_snip_ssg08.obj`
-  }
+  },
+
+  "Knives": {
+    "Butterfly": `${M}/weapon_knife_butterfly.obj`
+}
 };
+
 
 
 
