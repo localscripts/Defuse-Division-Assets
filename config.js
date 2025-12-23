@@ -8,7 +8,8 @@ const B = `${ROOT}/backgrounds`;
 // Collections
 const collections = {
   "Seaside": `${C}/seaside.png`,
-  "Alpha": `${C}/alpha.png`
+  "Alpha": `${C}/alpha.png`,
+  "Knife": `${C}/knife.png`
 };
 
 const backgrounds = {
@@ -116,7 +117,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -124,7 +125,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -132,7 +133,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -140,7 +141,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -148,7 +149,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -156,7 +157,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -164,7 +165,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -172,7 +173,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -180,7 +181,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -188,7 +189,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -196,7 +197,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -204,7 +205,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -212,7 +213,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -220,7 +221,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 
@@ -228,7 +229,7 @@ const skins = {
   "Vanila": {
     "variants": ["FN"],
     "factors": ["ColorMap"],
-    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+    "settings": { skinId: "vanila", collection: "Knife", rarity: "red" }
   }
 },
 };
@@ -308,6 +309,7 @@ const weapons = {
 },
 
 };
+
 
 
 
