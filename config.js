@@ -125,7 +125,7 @@ const skins = {
     "LifeGuard": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "lifeguard", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "lifeguard", collection: "Seaside", rarity: "purple"}
     }
   },
   "AWP": {
@@ -137,7 +137,7 @@ const skins = {
     "Leviathan": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "leviathan", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "leviathan", collection: "Seaside", rarity: "red"}
     },
     "Dezerthus": {
       variants: ["FN"],
@@ -152,7 +152,7 @@ const skins = {
     "Wave Check": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "wavecheck", collection: "Alpha", rarity: "Pink"}
+      settings: {skinId: "wavecheck", collection: "Alpha", rarity: "pink"}
     }
   },
   "Skeleton": {
@@ -201,7 +201,7 @@ const skins = {
     "Sunken Treasure": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "sunkentreasure", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "sunkentreasure", collection: "Seaside", rarity: "pink"}
     }
   },
   "tactical": {
@@ -271,7 +271,7 @@ const skins = {
     "Docks Patrol": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dockspatrol", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dockspatrol", collection: "Seaside", rarity: "blue"}
     }
   },
   "Ursus": {
@@ -320,7 +320,7 @@ const skins = {
     "Fluctus": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "fluctus", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "fluctus", collection: "Seaside", rarity: "purple"}
     },
     "Booster": {
       variants: ["FN"],
@@ -364,7 +364,7 @@ const skins = {
     "Beach Break": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap"],
-      settings: {skinId: "beachbreak", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "beachbreak", collection: "Seaside", rarity: "blue"}
     },
     "Spirit": {
       variants: ["FN"],
@@ -396,7 +396,7 @@ const skins = {
     "Abyssus": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "abyssus", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "abyssus", collection: "Seaside", rarity: "red"}
     }
   },
   "UMP-45": {
@@ -408,12 +408,12 @@ const skins = {
     "Megaladon": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "megaladon", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "megaladon", collection: "Seaside", rarity: "pink"}
     },
     "Barnacles": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "barnacles", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "barnacles", collection: "Seaside", rarity: "blue"}
     }
   },
   "Tec-9": {
@@ -434,7 +434,7 @@ const skins = {
     "Wavey": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "wavey", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "wavey", collection: "Seaside", rarity: "blue"}
     }
   },
   "canis": {
@@ -513,7 +513,7 @@ const skins = {
     "Jelly-Fish": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "jelly-fish", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "jelly-fish", collection: "Seaside", rarity: "blue"}
     }
   },
   "Karambit": {
@@ -596,7 +596,7 @@ const skins = {
     "Trout": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "trout", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "trout", collection: "Seaside", rarity: "purple"}
     }
   },
   "AK-47": {
@@ -633,7 +633,7 @@ const skins = {
     "Ignark": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "ignark", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "ignark", collection: "Seaside", rarity: "pink"}
     },
     "LIBERTYWALK": {
       variants: ["FN"],
@@ -685,7 +685,7 @@ const skins = {
     "LightHouse": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "lighthouse", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "lighthouse", collection: "Seaside", rarity: "blue"}
     },
     "Desert": {
       variants: ["FN"],
@@ -808,7 +808,6 @@ const weapons = {
   },
 
 };
-
 
 
 
