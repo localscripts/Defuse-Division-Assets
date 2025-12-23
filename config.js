@@ -224,6 +224,13 @@ const skins = {
   }
 },
 
+"Ursus": {
+  "Vanila": {
+    "variants": ["FN"],
+    "factors": ["ColorMap"],
+    "settings": { skinId: "vanila", collection: "Knives", rarity: "red" }
+  }
+},
 };
 
 
@@ -297,6 +304,7 @@ const weapons = {
     "Skeleton": `${M}/weapon_knife_skeleton.obj`,
     "Stiletto": `${M}/weapon_knife_stiletto.obj`,
     "Talon": `${M}/weapon_knife_talon.obj`,
+    "Ursus": `${M}/weapon_knife_ursus.obj`,
 },
 
 };
