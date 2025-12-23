@@ -9,7 +9,8 @@ const B = `${ROOT}/backgrounds`;
 const collections = {
   "Seaside": `${C}/seaside.png`,
   "Alpha": `${C}/alpha.png`,
-  "Knife": `${C}/knife.png`
+  "Knife": `${C}/knife.png`,
+  "Drops": `${C}/drops.png`
 };
 
 const backgrounds = {
@@ -86,7 +87,7 @@ const skins = {
     "Charcoal Print": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "charcoalprint", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "charcoalprint", collection: "Drops", rarity: "gray"}
     },
     "Chrome Print": {
       variants: ["FN"],
@@ -147,7 +148,7 @@ const skins = {
     "Kicius": {
       variants: ["FN"],
       factors: ["ColorMap"],
-      settings: {skinId: "kicius", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "kicius", collection: "Drops", rarity: "gray"}
     },
     "Wave Check": {
       variants: ["FN"],
@@ -186,7 +187,7 @@ const skins = {
     "Black Widow": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "blackwidow", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "blackwidow", collection: "Drops", rarity: "gray"}
     },
     "Test": {
       variants: ["FN"],
@@ -266,7 +267,7 @@ const skins = {
     "Dusty": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dusty", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dusty", collection: "Drops", rarity: "gray"}
     },
     "Docks Patrol": {
       variants: ["FN"],
@@ -369,7 +370,7 @@ const skins = {
     "Spirit": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "spirit", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "spirit", collection: "Drops", rarity: "gray"}
     },
     "Heartline": {
       variants: ["FN"],
@@ -386,7 +387,7 @@ const skins = {
     "Moonlight": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "moonlight", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "moonlight", collection: "Drops", rarity: "gray"}
     },
     "Original Gamer": {
       variants: ["FN"],
@@ -403,7 +404,7 @@ const skins = {
     "Kobold Fire": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "koboldfire", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "koboldfire", collection: "Drops", rarity: "gray"}
     },
     "Megaladon": {
       variants: ["FN"],
@@ -569,7 +570,7 @@ const skins = {
     "Relic": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "relic", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "relic", collection: "Drops", rarity: "gray"}
     },
     "Spartan": {
       variants: ["FN"],
@@ -586,7 +587,7 @@ const skins = {
     "Desert": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "desert", collection: "Drops", rarity: "gray"}
     },
     "Dunes": {
       variants: ["FN"],
@@ -668,7 +669,7 @@ const skins = {
     "Frost Beast": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "frostbeast", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "frostbeast", collection: "Drops", rarity: "gray"}
     },
     "Cody Special": {
       variants: ["FN"],
@@ -808,7 +809,6 @@ const weapons = {
   },
 
 };
-
 
 
 
