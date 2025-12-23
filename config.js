@@ -33,7 +33,7 @@ const skins = {
     "Medic": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "medic", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "medic", collection: "Drops", rarity: "gray"}
     }
   },
   "Butterfly": {
@@ -143,7 +143,7 @@ const skins = {
     "Dezerthus": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dezerthus", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dezerthus", collection: "Drops", rarity: "gray"}
     },
     "Kicius": {
       variants: ["FN"],
@@ -182,7 +182,7 @@ const skins = {
     "Dune Serpant": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "duneserpant", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "duneserpant", collection: "Drops", rarity: "gray"}
     },
     "Black Widow": {
       variants: ["FN"],
@@ -216,7 +216,7 @@ const skins = {
     "Phoenix": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "phoenix", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "phoenix", collection: "Drops", rarity: "gray"}
     }
   },
   "P250": {
@@ -301,7 +301,7 @@ const skins = {
     "Baddie Wit Da Flowers": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "baddiewitdaflowers", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "baddiewitdaflowers", collection: "Drops", rarity: "gray"}
     },
     "Hypnotized": {
       variants: ["FN"],
@@ -311,7 +311,7 @@ const skins = {
     "Firefox": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "firefox", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "firefox", collection: "Drops", rarity: "gray"}
     },
     "LIBERTYWALK": {
       variants: ["FN"],
@@ -331,7 +331,7 @@ const skins = {
     "Sand Storm": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "sandstorm", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "sandstorm", collection: "Drops", rarity: "gray"}
     },
     "Green Marble": {
       variants: ["FN"],
@@ -360,7 +360,7 @@ const skins = {
     "Fiori Dorati": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "fioridorati", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "fioridorati", collection: "Drops", rarity: "gray"}
     },
     "Beach Break": {
       variants: ["FN"],
@@ -614,7 +614,7 @@ const skins = {
     "Sandsoul": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "sandsoul", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "sandsoul", collection: "Drops", rarity: "gray"}
     },
     "HorribleV2": {
       variants: ["FN"],
@@ -664,7 +664,7 @@ const skins = {
     "Baddie Wit Da Flowers": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap"],
-      settings: {skinId: "baddiewitdaflowers", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "baddiewitdaflowers", collection: "Drops", rarity: "gray"}
     },
     "Frost Beast": {
       variants: ["FN"],
@@ -691,7 +691,7 @@ const skins = {
     "Desert": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "desert", collection: "Drops", rarity: "gray"}
     },
     "Curio": {
       variants: ["FN"],
