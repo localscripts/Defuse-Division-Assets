@@ -28,31 +28,31 @@ const rarity = {
 };
 
 const skins = {
-  "deserteagle": {
-    "Dune Serpant": {
+  "Glock-18": {
+    "Melon": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "duneserpant", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "melon", collection: "Unknown", rarity: "gray"}
     },
-    "Black Widow": {
+    "Fiori Dorati": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "blackwidow", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "fioridorati", collection: "Unknown", rarity: "gray"}
     },
-    "Test": {
+    "Beach Break": {
       variants: ["FN"],
-      factors: ["ColorMap", "NormalMap"],
-      settings: {skinId: "test", collection: "Unknown", rarity: "gray"}
+      factors: ["ColorMap", "MetalnessMap", "NormalMap"],
+      settings: {skinId: "beachbreak", collection: "Unknown", rarity: "gray"}
     },
-    "Aurion": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "aurion", collection: "Unknown", rarity: "gray"}
-    },
-    "Sunken Treasure": {
+    "Spirit": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "sunkentreasure", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "spirit", collection: "Unknown", rarity: "gray"}
+    },
+    "Heartline": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "heartline", collection: "Unknown", rarity: "gray"}
     }
   },
   "Zeus x27": {
@@ -62,16 +62,11 @@ const skins = {
       settings: {skinId: "medic", collection: "Unknown", rarity: "gray"}
     }
   },
-  "MAG-7": {
-    "Dusty": {
+  "MP9": {
+    "Oxidized": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dusty", collection: "Unknown", rarity: "gray"}
-    },
-    "Docks Patrol": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dockspatrol", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "oxidized", collection: "Unknown", rarity: "gray"}
     }
   },
   "Gut": {
@@ -96,38 +91,26 @@ const skins = {
       settings: {skinId: "gammadopplerphase1", collection: "Unknown", rarity: "gray"}
     }
   },
-  "MP7": {
-    "LifeGuard": {
+  "Stiletto": {
+    "Marble Fade": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "lifeguard", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "AWP": {
-    "Jack o' Sniper": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap"],
-      settings: {skinId: "jacko'sniper", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "marblefade", collection: "Unknown", rarity: "gray"}
     },
-    "Leviathan": {
+    "Doppler Sapphire": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "leviathan", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dopplersapphire", collection: "Unknown", rarity: "gray"}
     },
-    "Dezerthus": {
+    "Blood Moon": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dezerthus", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "bloodmoon", collection: "Unknown", rarity: "gray"}
     },
-    "Kicius": {
-      variants: ["FN"],
-      factors: ["ColorMap"],
-      settings: {skinId: "kicius", collection: "Unknown", rarity: "gray"}
-    },
-    "Wave Check": {
+    "Doppler Phase 1": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "wavecheck", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dopplerphase1", collection: "Unknown", rarity: "gray"}
     }
   },
   "Skeleton": {
@@ -152,26 +135,23 @@ const skins = {
       settings: {skinId: "dopplerphase1", collection: "Unknown", rarity: "gray"}
     }
   },
-  "M4A4": {
-    "Booster": {
+  "Galil AR": {
+    "Phoenix": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "booster", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "phoenix", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "MAG-7": {
+    "Dusty": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "dusty", collection: "Unknown", rarity: "gray"}
     },
-    "Charcoal Print": {
+    "Docks Patrol": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "charcoalprint", collection: "Unknown", rarity: "gray"}
-    },
-    "Chrome Print": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "chromeprint", collection: "Unknown", rarity: "gray"}
-    },
-    "LIBERTYWALK": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "libertywalk", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dockspatrol", collection: "Unknown", rarity: "gray"}
     }
   },
   "tactical": {
@@ -179,6 +159,39 @@ const skins = {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       settings: {skinId: "dopplersapphire", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "Bayonet": {
+    "Booster": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "booster", collection: "Unknown", rarity: "gray"}
+    },
+    "Hieroglyphics": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "hieroglyphics", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "P250": {
+    "Thorned Stars": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "thornedstars", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "Tec-9": {
+    "Industrial Danger": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "industrialdanger", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "MP7": {
+    "LifeGuard": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "lifeguard", collection: "Unknown", rarity: "gray"}
     }
   },
   "Butterfly": {
@@ -223,55 +236,48 @@ const skins = {
       settings: {skinId: "dopplerruby", collection: "Unknown", rarity: "gray"}
     }
   },
-  "P250": {
-    "Thorned Stars": {
+  "SSG08": {
+    "Relic": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "thornedstars", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "relic", collection: "Unknown", rarity: "gray"}
+    },
+    "Spartan": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "spartan", collection: "Unknown", rarity: "gray"}
+    },
+    "Brains & Bass": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "brains&bass", collection: "Unknown", rarity: "gray"}
     }
   },
-  "Talon": {
-    "Doppler Emerald": {
+  "AWP": {
+    "Jack o' Sniper": {
       variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "doppleremerald", collection: "Unknown", rarity: "gray"}
+      factors: ["ColorMap", "MetalnessMap", "NormalMap"],
+      settings: {skinId: "jacko'sniper", collection: "Unknown", rarity: "gray"}
     },
-    "Sea Drift": {
+    "Leviathan": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "seadrift", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "leviathan", collection: "Unknown", rarity: "gray"}
     },
-    "Blood Moon": {
+    "Dezerthus": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "bloodmoon", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "dezerthus", collection: "Unknown", rarity: "gray"}
     },
-    "Marble Fade": {
+    "Kicius": {
       variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "marblefade", collection: "Unknown", rarity: "gray"}
+      factors: ["ColorMap"],
+      settings: {skinId: "kicius", collection: "Unknown", rarity: "gray"}
     },
-    "Doppler Sapphire": {
+    "Wave Check": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dopplersapphire", collection: "Unknown", rarity: "gray"}
-    },
-    "Hieroghlyphics SE": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "hieroghlyphicsse", collection: "Unknown", rarity: "gray"}
-    },
-    "Doppler Phase 1": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dopplerphase1", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "Galil AR": {
-    "Phoenix": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "phoenix", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "wavecheck", collection: "Unknown", rarity: "gray"}
     }
   },
   "Ursus": {
@@ -296,145 +302,53 @@ const skins = {
       settings: {skinId: "marblefade", collection: "Unknown", rarity: "gray"}
     }
   },
-  "USP-S": {
-    "Baddie Wit Da Flowers": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "baddiewitdaflowers", collection: "Unknown", rarity: "gray"}
-    },
-    "Hypnotized": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "hypnotized", collection: "Unknown", rarity: "gray"}
-    },
-    "Firefox": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "firefox", collection: "Unknown", rarity: "gray"}
-    },
-    "LIBERTYWALK": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "libertywalk", collection: "Unknown", rarity: "gray"}
-    },
-    "Fluctus": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "fluctus", collection: "Unknown", rarity: "gray"}
-    },
+  "M4A4": {
     "Booster": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       settings: {skinId: "booster", collection: "Unknown", rarity: "gray"}
     },
-    "Sand Storm": {
+    "Charcoal Print": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "sandstorm", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "charcoalprint", collection: "Unknown", rarity: "gray"}
     },
-    "Green Marble": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "greenmarble", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "Bayonet": {
-    "Booster": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "booster", collection: "Unknown", rarity: "gray"}
-    },
-    "Hieroglyphics": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "hieroglyphics", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "Glock-18": {
-    "Melon": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "melon", collection: "Unknown", rarity: "gray"}
-    },
-    "Fiori Dorati": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "fioridorati", collection: "Unknown", rarity: "gray"}
-    },
-    "Beach Break": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap"],
-      settings: {skinId: "beachbreak", collection: "Unknown", rarity: "gray"}
-    },
-    "Spirit": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "spirit", collection: "Unknown", rarity: "gray"}
-    },
-    "Heartline": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "heartline", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "M4A1-S": {
     "Chrome Print": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       settings: {skinId: "chromeprint", collection: "Unknown", rarity: "gray"}
     },
-    "Moonlight": {
+    "LIBERTYWALK": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "moonlight", collection: "Unknown", rarity: "gray"}
-    },
-    "Original Gamer": {
-      variants: ["FN"],
-      factors: ["ColorMap"],
-      settings: {skinId: "originalgamer", collection: "Unknown", rarity: "gray"}
-    },
-    "Abyssus": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "abyssus", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "libertywalk", collection: "Unknown", rarity: "gray"}
     }
   },
-  "UMP-45": {
-    "Kobold Fire": {
+  "Desert Eagle": {
+    "Dune Serpant": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "koboldfire", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "duneserpant", collection: "Unknown", rarity: "gray"}
     },
-    "Megaladon": {
+    "Black Widow": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "megaladon", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "blackwidow", collection: "Unknown", rarity: "gray"}
     },
-    "Barnacles": {
+    "Test": {
+      variants: ["FN"],
+      factors: ["ColorMap", "NormalMap"],
+      settings: {skinId: "test", collection: "Unknown", rarity: "gray"}
+    },
+    "Aurion": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "barnacles", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "Tec-9": {
-    "Industrial Danger": {
+      settings: {skinId: "aurion", collection: "Unknown", rarity: "gray"}
+    },
+    "Sunken Treasure": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "industrialdanger", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "MP9": {
-    "Oxidized": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "oxidized", collection: "Unknown", rarity: "gray"}
-    }
-  },
-  "P90": {
-    "Wavey": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "wavey", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "sunkentreasure", collection: "Unknown", rarity: "gray"}
     }
   },
   "canis": {
@@ -504,6 +418,47 @@ const skins = {
       settings: {skinId: "dopplerruby", collection: "Unknown", rarity: "gray"}
     }
   },
+  "Nova": {
+    "Desert": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+    },
+    "Dunes": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "dunes", collection: "Unknown", rarity: "gray"}
+    },
+    "Trout": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "trout", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "P90": {
+    "Wavey": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "wavey", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "Dual Berettas": {
+    "LightHouse": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "lighthouse", collection: "Unknown", rarity: "gray"}
+    },
+    "Desert": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+    },
+    "Curio": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "curio", collection: "Unknown", rarity: "gray"}
+    }
+  },
   "MAC-10": {
     "Glitched": {
       variants: ["FN"],
@@ -565,38 +520,50 @@ const skins = {
       settings: {skinId: "dopplerphase1", collection: "Unknown", rarity: "gray"}
     }
   },
-  "SSG08": {
-    "Relic": {
+  "M4A1-S": {
+    "Chrome Print": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "relic", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "chromeprint", collection: "Unknown", rarity: "gray"}
     },
-    "Spartan": {
+    "Moonlight": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "spartan", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "moonlight", collection: "Unknown", rarity: "gray"}
     },
-    "Brains & Bass": {
+    "Original Gamer": {
+      variants: ["FN"],
+      factors: ["ColorMap"],
+      settings: {skinId: "originalgamer", collection: "Unknown", rarity: "gray"}
+    },
+    "Abyssus": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "brains&bass", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "abyssus", collection: "Unknown", rarity: "gray"}
     }
   },
-  "Nova": {
-    "Desert": {
+  "UMP-45": {
+    "Kobold Fire": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "koboldfire", collection: "Unknown", rarity: "gray"}
     },
-    "Dunes": {
+    "Megaladon": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "dunes", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "megaladon", collection: "Unknown", rarity: "gray"}
     },
-    "Trout": {
+    "Barnacles": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "trout", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "barnacles", collection: "Unknown", rarity: "gray"}
+    }
+  },
+  "XM1014": {
+    "Steel Wave": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "steelwave", collection: "Unknown", rarity: "gray"}
     }
   },
   "AK-47": {
@@ -681,24 +648,64 @@ const skins = {
       settings: {skinId: "alpha", collection: "Unknown", rarity: "gray"}
     }
   },
-  "Dual Berettas": {
-    "LightHouse": {
+  "USP-S": {
+    "Baddie Wit Da Flowers": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "lighthouse", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "baddiewitdaflowers", collection: "Unknown", rarity: "gray"}
     },
-    "Desert": {
+    "Hypnotized": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "desert", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "hypnotized", collection: "Unknown", rarity: "gray"}
     },
-    "Curio": {
+    "Firefox": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "curio", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "firefox", collection: "Unknown", rarity: "gray"}
+    },
+    "LIBERTYWALK": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "libertywalk", collection: "Unknown", rarity: "gray"}
+    },
+    "Fluctus": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "fluctus", collection: "Unknown", rarity: "gray"}
+    },
+    "Booster": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "booster", collection: "Unknown", rarity: "gray"}
+    },
+    "Sand Storm": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "sandstorm", collection: "Unknown", rarity: "gray"}
+    },
+    "Green Marble": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "greenmarble", collection: "Unknown", rarity: "gray"}
     }
   },
-  "Stiletto": {
+  "Talon": {
+    "Doppler Emerald": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "doppleremerald", collection: "Unknown", rarity: "gray"}
+    },
+    "Sea Drift": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "seadrift", collection: "Unknown", rarity: "gray"}
+    },
+    "Blood Moon": {
+      variants: ["FN"],
+      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
+      settings: {skinId: "bloodmoon", collection: "Unknown", rarity: "gray"}
+    },
     "Marble Fade": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
@@ -709,25 +716,19 @@ const skins = {
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       settings: {skinId: "dopplersapphire", collection: "Unknown", rarity: "gray"}
     },
-    "Blood Moon": {
+    "Hieroghlyphics SE": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "bloodmoon", collection: "Unknown", rarity: "gray"}
+      settings: {skinId: "hieroghlyphicsse", collection: "Unknown", rarity: "gray"}
     },
     "Doppler Phase 1": {
       variants: ["FN"],
       factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
       settings: {skinId: "dopplerphase1", collection: "Unknown", rarity: "gray"}
     }
-  },
-  "XM1014": {
-    "Steel Wave": {
-      variants: ["FN"],
-      factors: ["ColorMap", "MetalnessMap", "NormalMap", "RoughnessMap"],
-      settings: {skinId: "steelwave", collection: "Unknown", rarity: "gray"}
-    }
   }
 }
+
 
 
 
@@ -806,6 +807,7 @@ const weapons = {
   },
 
 };
+
 
 
 
